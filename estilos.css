@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+@import url(styles.css);
 	*{
 		margin: 0;
 		padding: 0;
@@ -6,7 +7,7 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background: url(https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
+		background: url(https://images.unsplash.com/photo-1609096837711-47829e75af0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzJTIwc3RvcHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 	}
@@ -119,4 +120,42 @@
 		cursor: pointer;
 		font-size: 18px;
 	}
-	/*Fin de Menù lateral*/
+	
+	.justify{
+		text-align: justify;
+		}
+
+		.c1 { 
+			font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+			color: #ffffff; 
+			font-size: 18px; 
+			font-weight: 400; 
+			text-align: justify; 
+			background: none; 
+			margin: 0 0 25px; 
+			overflow: hidden; 
+			padding: 20px; 
+			border-radius: 35px 0px 35px 0px; 
+			-moz-border-radius: 35px 0px 35px 0px; 
+			-webkit-border-radius: 35px 0px 35px 0px; 
+			border: 2px solid #FFFFFF;
+		}
+
+		
+		.map-responsive {
+			overflow:hidden;
+			padding-bottom:50%; 
+			position:relative;
+			height:0;
+		}
+		.map-responsive iframe{
+			left:0;
+			top:0;
+			height:25%;
+			width:25%;
+			position:absolute;
+		}
+		.conte{
+			display: flex;
+			
+		 }	
